@@ -11,7 +11,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.js$/, loader: 'jsx-loader'}
+      {test: /\.js$/, loader: 'jsx-loader'},
+      {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'} 
     ]
   }
 };
