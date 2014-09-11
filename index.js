@@ -1,4 +1,8 @@
 /** @jsx React.DOM */
 var React = require('react');
+var Hello = require('./components/Hello.js');
 
-React.renderComponent(<h1>Hello React!</h1>, document.body);
+React.renderComponent(
+  <Hello name="Matt"/>,
+  document.body
+);
