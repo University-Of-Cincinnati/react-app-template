@@ -1,4 +1,5 @@
 # how to use
 
 * `npm install`
-* `npm start`
+* `webpack-dev-server --progress --colors`
+* `http://localhost:8080/webpack-dev-server/browser-bundle`
